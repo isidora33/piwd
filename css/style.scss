@@ -6,10 +6,11 @@ $color2: #8ECDDD;
 .container {
     .navbar-brand {
         .logo {
-            color: $secondary;
+            color: $secondary !important;
         }
     }
 }
+
 
 .secondary {
     background-color: $secondary;
@@ -93,6 +94,8 @@ $color2: #8ECDDD;
 
 
 
+
+
 /* Responsive css 
 @media only screen and (min-width:768px) and (max-width:991px) {}
 
@@ -133,6 +136,11 @@ $color2: #8ECDDD;
     }
 
     .carousel-caption {
-        bottom: 25%;
+        bottom: 20%;
+    }
+
+    .social-icons {
+        font-size: 20px;
+        margin: 8px;
     }
 }

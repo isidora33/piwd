@@ -1,5 +1,5 @@
 .container .navbar-brand .logo {
-  color: #22668D;
+  color: #22668D !important;
 }
 
 .secondary {
@@ -113,6 +113,10 @@
     height: 60vh;
   }
   .carousel-caption {
-    bottom: 25%;
+    bottom: 20%;
+  }
+  .social-icons {
+    font-size: 20px;
+    margin: 8px;
   }
 }/*# sourceMappingURL=style.css.map */
