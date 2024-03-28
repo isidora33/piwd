@@ -2,6 +2,10 @@
   color: #22668D !important;
 }
 
+.primary {
+  background-color: #FFFADD;
+}
+
 .secondary {
   background-color: #22668D;
 }
