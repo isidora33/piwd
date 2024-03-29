@@ -1,5 +1,19 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 .container .navbar-brand .logo {
   color: #22668D !important;
+}
+
+.color2 {
+  background-color: #8ECDDD;
+}
+
+.color1 {
+  background-color: #FFCC70;
 }
 
 .primary {
@@ -10,12 +24,16 @@
   background-color: #22668D;
 }
 
-.carousel-item {
+.secondary-t {
+  color: #22668D;
+}
+
+#carouselExampleCaptions .carousel-item {
   height: 100vh;
 }
 
 .carousel-caption {
-  bottom: 35%;
+  bottom: 40%;
   z-index: 2;
 }
 
@@ -33,7 +51,7 @@
   line-height: 1.9;
 }
 
-.carousel-inner::before {
+#carouselExampleCaptions .carousel-inner::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -82,6 +100,16 @@
   color: #22668D;
 }
 
+.social-icons-team {
+  color: #22668D;
+  font-size: 21px;
+  margin: 5px;
+}
+
+.social-icons-team:hover {
+  filter: brightness(60%);
+}
+
 /* Responsive css 
 @media only screen and (min-width:768px) and (max-width:991px) {}
 
@@ -109,15 +137,20 @@
     width: 50%;
   }
 }
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
-  .carousel-item {
-    height: 60vh;
+  #carouselExampleCaptions .carousel-item {
+    height: 50vh;
   }
   .w-100 {
-    height: 60vh;
+    height: 50vh;
   }
   .carousel-caption {
-    bottom: 20%;
+    bottom: 25%;
   }
   .social-icons {
     font-size: 20px;
