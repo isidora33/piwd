@@ -141,6 +141,9 @@ body::before {
   .navbar-nav {
     text-align: center;
   }
+  .reverse {
+    flex-direction: column-reverse !important;
+  }
 }
 @media (max-width: 768px) {
   #carouselExampleCaptions .carousel-item {
