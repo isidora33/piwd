@@ -119,6 +119,10 @@ body::before {
   background-repeat: no-repeat;
 }
 
+.title {
+  font-family: "Handlee", cursive;
+}
+
 /* Responsive css */
 @media (min-width: 768px) {
   .news-input {
